@@ -1,0 +1,35 @@
+{
+  "dataset_rows_original": 5000,
+  "duplicates_removed": 66,
+  "clean_rows": 4934,
+  "train_rows": 3947,
+  "test_rows": 987,
+  "training_split": "80/20 stratified train/test split",
+  "model_params": {
+    "n_estimators": 500,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "random_state": 42
+  },
+  "test_metrics": {
+    "accuracy": 0.993920972644377,
+    "precision": 0.9959183673469387,
+    "recall": 0.991869918699187,
+    "f1": 0.9938900203665988,
+    "roc_auc": 0.9994744189866142
+  },
+  "previous_tuned_model_confusion_matrix": [
+    [
+      493,
+      2
+    ],
+    [
+      8,
+      484
+    ]
+  ]
+}
